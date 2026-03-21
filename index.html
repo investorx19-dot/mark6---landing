@@ -1,0 +1,578 @@
+<!DOCTYPE html><html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark6 Mega Sena | Gere Dezenas Vencedoras em Segundos</title>
+    <meta
+      name="description"
+      content="Mark6 Mega Sena: gerador inteligente de dezenas com algoritmo comprovado, provas sociais, garantia de 30 dias e oferta de 50% OFF hoje. Gere suas dezenas agora."
+    />
+    <meta name="theme-color" content="#003311" />
+    <meta property="og:title" content="Mark6 Mega Sena | Gere Dezenas Vencedoras em Segundos" />
+    <meta
+      property="og:description"
+      content="O gerador inteligente de dezenas para apostadores da Mega Sena. Oferta de 50% OFF por tempo limitado."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                dark: '#003311',
+                lime: '#00FF7F',
+                black: '#050505',
+                soft: '#071b11'
+              }
+            },
+            boxShadow: {
+              glow: '0 0 0 1px rgba(0,255,127,.15), 0 0 30px rgba(0,255,127,.22), 0 12px 40px rgba(0,0,0,.35)',
+              card: '0 10px 40px rgba(0,0,0,.28)'
+            },
+            backgroundImage: {
+              heroGlow:
+                'radial-gradient(circle at top, rgba(0,255,127,.18), transparent 35%), radial-gradient(circle at right, rgba(0,255,127,.08), transparent 30%)'
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Inter', sans-serif; }
+      .glass {
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .glow-hover {
+        transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+      }
+      .glow-hover:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 0 1px rgba(0,255,127,.25), 0 0 28px rgba(0,255,127,.35), 0 16px 40px rgba(0,0,0,.35);
+      }
+      .noise {
+        position: relative;
+      }
+      .noise::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px);
+        background-size: 18px 18px;
+        opacity: .08;
+        pointer-events: none;
+      }
+      .faq-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .3s ease;
+      }
+      .faq-item.active .faq-content {
+        max-height: 220px;
+      }
+      .faq-item.active .faq-icon {
+        transform: rotate(45deg);
+      }
+      .faq-icon {
+        transition: transform .25s ease;
+      }
+    </style>
+  </head>
+  <body class="bg-brand.black text-white antialiased selection:bg-brand.lime selection:text-brand.black">
+    <div class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/65 backdrop-blur-md">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+        <a href="#top" class="flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-brand.lime font-black text-brand.black shadow-glow">M6</div>
+          <div>
+            <p class="text-sm font-extrabold tracking-[0.25em] text-brand.lime">MARK6</p>
+            <p class="text-xs text-white/60">Mega Sena Intelligence</p>
+          </div>
+        </a>
+        <a
+          href="#oferta"
+          class="hidden rounded-full bg-brand.lime px-5 py-3 text-sm font-extrabold uppercase tracking-wide text-brand.black shadow-glow glow-hover md:inline-flex"
+        >
+          Comprar com 50% OFF
+        </a>
+      </div>
+    </div><main id="top">
+  <section class="relative overflow-hidden bg-heroGlow pt-28 sm:pt-32">
+    <div class="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,51,17,.9),rgba(5,5,5,1))]"></div>
+    <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-4 pb-16 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:px-8 lg:pb-24">
+      <div>
+        <span class="glass mb-6 inline-flex rounded-full px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-brand.lime">
+          Algoritmo inteligente para Mega Sena
+        </span>
+        <h1 class="max-w-3xl text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
+          Gere Dezenas Vencedoras da Mega Sena em Segundos com Mark6
+        </h1>
+        <p class="mt-6 max-w-2xl text-base leading-7 text-white/78 sm:text-lg">
+          O único gerador de números com algoritmo comprovado que já entregou +R$ 3,8 milhões em prêmios para nossos usuários. Pare de perder dinheiro com palpites aleatórios.
+        </p>
+
+        <div class="mt-8 grid gap-3 sm:grid-cols-3">
+          <div class="glass rounded-2xl p-4 text-sm font-semibold text-white/90">✓ Combina frequência, atraso e padrões avançados</div>
+          <div class="glass rounded-2xl p-4 text-sm font-semibold text-white/90">✓ Geração instantânea de jogos com lógica estatística</div>
+          <div class="glass rounded-2xl p-4 text-sm font-semibold text-white/90">✓ Método pensado para o apostador estratégico</div>
+        </div>
+
+        <div class="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+          <a
+            href="#oferta"
+            class="glow-hover inline-flex items-center justify-center rounded-2xl bg-brand.lime px-6 py-4 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:text-base"
+          >
+            QUERO MINHAS DEZENAS AGORA – 50% OFF HOJE
+          </a>
+          <a
+            href="#video"
+            class="glass inline-flex items-center justify-center rounded-2xl px-6 py-4 text-center text-sm font-bold text-white/90 glow-hover sm:text-base"
+          >
+            Ver vídeo de 2 minutos
+          </a>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3 text-sm text-white/65">
+          <span class="rounded-full border border-white/10 px-3 py-1">Compra segura</span>
+          <span class="rounded-full border border-white/10 px-3 py-1">Acesso imediato</span>
+          <span class="rounded-full border border-white/10 px-3 py-1">Garantia de 30 dias</span>
+        </div>
+      </div>
+
+      <div class="glass noise rounded-[28px] p-4 shadow-card sm:p-5">
+        <div
+          id="video"
+          class="group relative aspect-video overflow-hidden rounded-[24px] border border-white/10 bg-[#08120d]"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1200&q=80"
+            alt="Placeholder do vídeo de vendas do Mark6"
+            class="h-full w-full object-cover opacity-45"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-br from-brand.dark/60 via-transparent to-black/80"></div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+            <button
+              aria-label="Assistir vídeo"
+              class="glow-hover flex h-20 w-20 items-center justify-center rounded-full bg-brand.lime text-brand.black shadow-glow"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </button>
+            <p class="mt-5 text-xs font-extrabold uppercase tracking-[0.25em] text-brand.lime">Vídeo de vendas</p>
+            <h2 class="mt-2 text-2xl font-black sm:text-3xl">Assista e descubra como o Mark6 cria jogos mais inteligentes</h2>
+            <p class="mt-3 max-w-lg text-sm text-white/75 sm:text-base">Substitua este bloco por um embed do YouTube/Vimeo no Framer, Dora ou Webflow.</p>
+          </div>
+        </div>
+        <div class="mt-5 grid gap-4 rounded-[24px] border border-red-500/25 bg-red-500/10 p-4 sm:grid-cols-[1fr_auto] sm:items-center">
+          <div>
+            <p class="text-xs font-extrabold uppercase tracking-[0.2em] text-red-400">Oferta limitada</p>
+            <p class="mt-2 text-lg font-black">Oferta de 50% OFF termina em: <span id="countdown-top">23h 14min 57s</span></p>
+            <p class="mt-2 text-sm font-bold text-red-400">Apenas 47 vagas com desconto hoje – preço sobe amanhã</p>
+          </div>
+          <a href="#oferta" class="glow-hover inline-flex justify-center rounded-2xl bg-brand.lime px-5 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow">Garantir desconto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-y border-white/5 bg-brand.soft/40 py-6">
+    <div class="mx-auto grid max-w-7xl gap-4 px-4 text-center sm:grid-cols-3 sm:px-6 lg:px-8">
+      <div class="glass rounded-2xl px-4 py-5">
+        <div class="text-2xl font-black text-brand.lime">+18.472</div>
+        <div class="mt-1 text-sm text-white/75">apostadores</div>
+      </div>
+      <div class="glass rounded-2xl px-4 py-5">
+        <div class="text-2xl font-black text-brand.lime">4.98/5</div>
+        <div class="mt-1 text-sm text-white/75">estrelas</div>
+      </div>
+      <div class="glass rounded-2xl px-4 py-5">
+        <div class="text-2xl font-black text-brand.lime">30 dias</div>
+        <div class="mt-1 text-sm text-white/75">garantia total</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <span class="text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Como funciona</span>
+      <h2 class="mt-4 text-3xl font-black sm:text-4xl">3 passos para sair do chute e apostar com inteligência</h2>
+      <p class="mt-4 text-white/70">O Mark6 foi pensado para quem quer agilidade, lógica e confiança na hora de gerar jogos para a Mega Sena.</p>
+    </div>
+
+    <div class="mt-12 grid gap-6 lg:grid-cols-3">
+      <article class="glass rounded-[28px] p-7 shadow-card">
+        <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand.lime/15 text-brand.lime">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2m6-2A10 10 0 1112 2a10 10 0 0110 10z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-black">1. Analise o histórico</h3>
+        <p class="mt-3 text-white/72">O algoritmo cruza atrasos, recorrência, combinações e padrões estatísticos para mapear cenários mais estratégicos.</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-7 shadow-card">
+        <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand.lime/15 text-brand.lime">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h8m-8 5h16" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-black">2. Gere dezenas em segundos</h3>
+        <p class="mt-3 text-white/72">Com poucos cliques, você recebe combinações prontas para apostar, sem perder tempo com palpites desconectados.</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-7 shadow-card">
+        <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand.lime/15 text-brand.lime">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-6m3 6V7m3 10v-4m3 4V5M5 19h14" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-black">3. Aposte com critério</h3>
+        <p class="mt-3 text-white/72">Você passa a jogar com uma lógica replicável, reduzindo impulsividade e aumentando a consistência da sua estratégia.</p>
+      </article>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="#oferta" class="glow-hover inline-flex rounded-2xl bg-brand.lime px-6 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:text-base">Quero testar o Mark6 agora</a>
+    </div>
+  </section>
+
+  <section class="bg-brand.soft/30 py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
+        <div>
+          <span class="text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Resultados reais</span>
+          <h2 class="mt-4 text-3xl font-black sm:text-4xl">Veja por que tantos apostadores estão migrando para o Mark6</h2>
+          <p class="mt-4 max-w-2xl text-white/72">Estrutura visual premium com espaço para inserir prints reais de bilhetes premiados, dashboard de performance e capturas da plataforma.</p>
+
+          <div class="mt-8 grid gap-4 sm:grid-cols-3">
+            <div class="glass rounded-2xl p-5">
+              <p class="text-xs uppercase tracking-[0.2em] text-white/55">Prêmios reportados</p>
+              <p class="mt-2 text-3xl font-black text-brand.lime">R$ 3,8M+</p>
+            </div>
+            <div class="glass rounded-2xl p-5">
+              <p class="text-xs uppercase tracking-[0.2em] text-white/55">Usuários ativos</p>
+              <p class="mt-2 text-3xl font-black text-brand.lime">18.472</p>
+            </div>
+            <div class="glass rounded-2xl p-5">
+              <p class="text-xs uppercase tracking-[0.2em] text-white/55">Satisfação</p>
+              <p class="mt-2 text-3xl font-black text-brand.lime">4.98/5</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-4">
+          <div class="glass rounded-[28px] p-4 shadow-card">
+            <div class="rounded-[22px] border border-white/10 bg-black/40 p-4">
+              <div class="flex items-center justify-between">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.2em] text-white/50">Bilhete premiado</p>
+                  <p class="mt-1 text-lg font-black">Prêmio parcial registrado</p>
+                </div>
+                <span class="rounded-full bg-brand.lime/15 px-3 py-1 text-xs font-bold text-brand.lime">Print</span>
+              </div>
+              <div class="mt-4 grid grid-cols-6 gap-2 text-center text-sm font-black">
+                <span class="rounded-xl bg-white/5 px-0 py-3">07</span>
+                <span class="rounded-xl bg-white/5 px-0 py-3">12</span>
+                <span class="rounded-xl bg-brand.lime px-0 py-3 text-brand.black">19</span>
+                <span class="rounded-xl bg-white/5 px-0 py-3">33</span>
+                <span class="rounded-xl bg-brand.lime px-0 py-3 text-brand.black">41</span>
+                <span class="rounded-xl bg-white/5 px-0 py-3">58</span>
+              </div>
+              <div class="mt-4 h-40 rounded-2xl bg-gradient-to-b from-brand.lime/15 to-transparent p-4">
+                <div class="flex h-full items-end gap-3">
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/35" style="height:44%"></div>
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/50" style="height:62%"></div>
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/70" style="height:78%"></div>
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/45" style="height:57%"></div>
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/80" style="height:88%"></div>
+                  <div class="w-1/6 rounded-t-xl bg-brand.lime/55" style="height:66%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="glass rounded-[24px] p-5">
+              <p class="text-xs uppercase tracking-[0.2em] text-white/50">Eficiência</p>
+              <p class="mt-2 text-2xl font-black">Jogos gerados</p>
+              <p class="mt-3 text-sm text-white/70">Automatize suas combinações em segundos com experiência premium.</p>
+            </div>
+            <div class="glass rounded-[24px] p-5">
+              <p class="text-xs uppercase tracking-[0.2em] text-white/50">Estratégia</p>
+              <p class="mt-2 text-2xl font-black">Menos achismo</p>
+              <p class="mt-3 text-sm text-white/70">Aposte com base em dados, padrões e lógica, não em impulso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 text-center">
+        <a href="#oferta" class="glow-hover inline-flex rounded-2xl bg-brand.lime px-6 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:text-base">Liberar meu acesso com desconto</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <span class="text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Depoimentos</span>
+      <h2 class="mt-4 text-3xl font-black sm:text-4xl">Pessoas comuns, resultados que chamam atenção</h2>
+      <p class="mt-4 text-white/72">Use estes cards com fotos reais ou avatares premium. O layout já está pronto para conversão em grid ou carrossel.</p>
+    </div>
+
+    <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=240&q=80" alt="Depoimento 1" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Carlos Mendes</h3>
+            <p class="text-sm text-white/60">Campinas, SP</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“Eu deixei de jogar números aleatórios. Com o Mark6, senti que finalmente tinha um critério. Em poucas semanas, bati um prêmio parcial excelente.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 18.450 na Mega Sena</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=240&q=80" alt="Depoimento 2" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Patrícia Alves</h3>
+            <p class="text-sm text-white/60">Belo Horizonte, MG</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“O que me convenceu foi a rapidez e o visual profissional. Hoje eu monto meus jogos em minutos e com muito mais confiança.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 9.870 na Mega Sena</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=240&q=80" alt="Depoimento 3" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Rogério Lima</h3>
+            <p class="text-sm text-white/60">Goiânia, GO</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“Eu já tinha testado planilhas e grupos pagos. O Mark6 foi o primeiro sistema que realmente me passou sensação de método sério.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 24.120 na Mega Sena</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=240&q=80" alt="Depoimento 4" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Fernanda Costa</h3>
+            <p class="text-sm text-white/60">Curitiba, PR</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“Achei premium desde o primeiro acesso. O Mark6 simplifica tudo e me ajuda a jogar com mais organização.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 7.540 na Mega Sena</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=240&q=80" alt="Depoimento 5" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Marcelo Nunes</h3>
+            <p class="text-sm text-white/60">Fortaleza, CE</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“A diferença está no processo. Não é promessa vazia: é uma ferramenta pensada para quem quer apostar melhor.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 12.330 na Mega Sena</p>
+      </article>
+
+      <article class="glass rounded-[28px] p-6 shadow-card">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=240&q=80" alt="Depoimento 6" class="h-14 w-14 rounded-2xl object-cover" />
+          <div>
+            <h3 class="font-black">Juliana Ribeiro</h3>
+            <p class="text-sm text-white/60">Recife, PE</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/78">“Depois que comecei a usar o Mark6, nunca mais voltei ao achismo. É simples, bonito e passa confiança.”</p>
+        <p class="mt-4 text-sm font-black text-brand.lime">Ganhou R$ 15.760 na Mega Sena</p>
+      </article>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="#oferta" class="glow-hover inline-flex rounded-2xl bg-brand.lime px-6 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:text-base">Quero entrar para os próximos resultados</a>
+    </div>
+  </section>
+
+  <section class="bg-brand.soft/30 py-16">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <span class="text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Perguntas frequentes</span>
+        <h2 class="mt-4 text-3xl font-black sm:text-4xl">Tudo o que você precisa saber antes de começar</h2>
+      </div>
+
+      <div class="mt-10 space-y-4">
+        <div class="faq-item glass rounded-2xl p-5">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 text-left">
+            <span class="text-lg font-black">O Mark6 garante prêmio na Mega Sena?</span>
+            <span class="faq-icon text-2xl font-light text-brand.lime">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="pt-4 text-white/72">Nenhuma ferramenta séria pode prometer prêmio garantido em loterias. O Mark6 organiza critérios e padrões para gerar jogos de forma mais estratégica do que palpites aleatórios.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass rounded-2xl p-5">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 text-left">
+            <span class="text-lg font-black">Preciso entender de estatística para usar?</span>
+            <span class="faq-icon text-2xl font-light text-brand.lime">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="pt-4 text-white/72">Não. A proposta do Mark6 é justamente simplificar a análise e entregar uma experiência intuitiva, mesmo para quem nunca usou ferramentas avançadas antes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass rounded-2xl p-5">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 text-left">
+            <span class="text-lg font-black">O acesso é imediato após a compra?</span>
+            <span class="faq-icon text-2xl font-light text-brand.lime">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="pt-4 text-white/72">Sim. Assim que o pagamento for confirmado, o usuário recebe o acesso para começar a gerar suas dezenas sem esperar.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass rounded-2xl p-5">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 text-left">
+            <span class="text-lg font-black">Posso usar no celular?</span>
+            <span class="faq-icon text-2xl font-light text-brand.lime">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="pt-4 text-white/72">Sim. A página e a experiência foram pensadas no formato mobile-first, para funcionar muito bem em smartphones, tablets e desktop.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass rounded-2xl p-5">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 text-left">
+            <span class="text-lg font-black">Como funciona a garantia de 30 dias?</span>
+            <span class="faq-icon text-2xl font-light text-brand.lime">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="pt-4 text-white/72">Você testa o Mark6 por até 30 dias. Se entender que o produto não faz sentido para você dentro desse período, solicita o reembolso conforme sua política de venda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="glass rounded-[32px] p-8 text-center shadow-card sm:p-12">
+      <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-brand.lime text-brand.black shadow-glow">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <p class="mt-6 text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Risco zero</p>
+      <h2 class="mt-4 text-3xl font-black sm:text-4xl">Satisfação ou Dinheiro de Volta</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-white/72">Você pode testar a experiência Mark6 com tranquilidade. Se o produto não atender às suas expectativas dentro do prazo, sua compra fica protegida pela garantia de 30 dias.</p>
+      <div class="mt-8 inline-flex rounded-full border border-brand.lime/30 bg-brand.lime/10 px-5 py-3 text-sm font-black uppercase tracking-wide text-brand.lime">
+        Selo: Satisfação ou Dinheiro de Volta
+      </div>
+    </div>
+  </section>
+
+  <section id="oferta" class="relative overflow-hidden border-y border-white/5 bg-heroGlow py-16">
+    <div class="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,51,17,.75),rgba(5,5,5,1))]"></div>
+    <div class="relative mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
+      <span class="glass inline-flex rounded-full px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-brand.lime">Última chamada de hoje</span>
+      <h2 class="mt-6 text-4xl font-black leading-tight sm:text-5xl">QUERO MINHAS DEZENAS AGORA – 50% OFF HOJE</h2>
+      <p class="mx-auto mt-5 max-w-3xl text-base text-white/75 sm:text-lg">Garanta acesso ao Mark6 hoje e entre no grupo de apostadores que parou de depender de sorte improvisada para montar jogos.</p>
+
+      <div class="mx-auto mt-8 max-w-2xl rounded-[28px] border border-red-500/25 bg-red-500/10 p-6">
+        <p class="text-sm font-extrabold uppercase tracking-[0.2em] text-red-400">Senso de urgência</p>
+        <p class="mt-3 text-2xl font-black sm:text-3xl">Oferta de 50% OFF termina em: <span id="countdown-bottom">23h 14min 57s</span></p>
+        <p class="mt-3 text-base font-bold text-red-400">Apenas 47 vagas com desconto hoje – preço sobe amanhã</p>
+      </div>
+
+      <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <a href="#" class="glow-hover inline-flex w-full items-center justify-center rounded-2xl bg-brand.lime px-8 py-5 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:w-auto sm:text-base">QUERO MINHAS DEZENAS AGORA – 50% OFF HOJE</a>
+        <a href="#video" class="glass inline-flex w-full items-center justify-center rounded-2xl px-8 py-5 text-center text-sm font-bold text-white/90 glow-hover sm:w-auto sm:text-base">Ver vídeo de 2 minutos</a>
+      </div>
+
+      <p class="mt-6 text-sm text-white/55">Pagamento seguro • Acesso imediato • Garantia de 30 dias</p>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-white/5 bg-black py-10 pb-24 md:pb-10">
+  <div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+    <div>
+      <p class="text-lg font-black">Mark6</p>
+      <p class="mt-2 max-w-xl text-sm text-white/55">Landing page premium pronta para adaptar no VS Code, Framer, Dora ou Webflow. Substitua links, depoimentos, vídeo e checkout pelos seus ativos finais.</p>
+    </div>
+    <div class="flex flex-wrap gap-3">
+      <a href="#top" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Topo</a>
+      <a href="#oferta" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Oferta</a>
+      <a href="#video" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Vídeo</a>
+    </div>
+  </div>
+</footer>
+
+<a
+  href="#oferta"
+  class="glow-hover fixed inset-x-4 bottom-4 z-50 inline-flex items-center justify-center rounded-2xl bg-brand.lime px-6 py-4 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow md:hidden"
+>
+  Comprar com 50% OFF
+</a>
+
+<a
+  href="https://wa.me/5500000000000"
+  aria-label="WhatsApp"
+  class="glow-hover fixed bottom-24 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-card md:bottom-5"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.55 0 .21 5.34.21 11.92c0 2.1.55 4.15 1.6 5.97L0 24l6.29-1.65a11.88 11.88 0 0 0 5.84 1.49h.01c6.58 0 11.92-5.34 11.92-11.92 0-3.18-1.24-6.17-3.54-8.44Zm-8.39 18.3h-.01a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.73.98 1-3.64-.24-.37a9.88 9.88 0 0 1-1.52-5.24c0-5.46 4.44-9.9 9.91-9.9 2.64 0 5.12 1.03 6.98 2.89a9.82 9.82 0 0 1 2.9 7c0 5.46-4.45 9.89-9.9 9.89Zm5.43-7.42c-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.66.15-.2.3-.77.98-.95 1.18-.17.2-.35.22-.65.08-.3-.15-1.28-.47-2.44-1.5-.9-.8-1.5-1.78-1.68-2.08-.18-.3-.02-.46.13-.61.13-.12.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.66-1.6-.9-2.2-.24-.58-.48-.5-.66-.51h-.56c-.2 0-.52.08-.79.38-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.88 1.2 3.08.15.2 2.1 3.2 5.08 4.48.71.31 1.26.5 1.7.64.72.23 1.37.2 1.89.12.58-.09 1.78-.73 2.03-1.43.25-.71.25-1.31.18-1.43-.07-.12-.27-.2-.57-.35Z"/>
+  </svg>
+</a>
+
+<script>
+  const countdownTargets = [document.getElementById('countdown-top'), document.getElementById('countdown-bottom')];
+  const deadline = new Date(Date.now() + 23 * 60 * 60 * 1000 + 14 * 60 * 1000 + 57 * 1000);
+
+  function updateCountdown() {
+    const now = new Date();
+    const diff = deadline - now;
+    if (diff <= 0) {
+      countdownTargets.forEach(el => el && (el.textContent = '00h 00min 00s'));
+      return;
+    }
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    const formatted = ${String(hours).padStart(2, '0')}h ${String(minutes).padStart(2, '0')}min ${String(seconds).padStart(2, '0')}s;
+    countdownTargets.forEach(el => el && (el.textContent = formatted));
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  document.querySelectorAll('.faq-toggle').forEach((button) => {
+    button.addEventListener('click', () => {
+      const item = button.parentElement;
+      document.querySelectorAll('.faq-item').forEach((faq) => {
+        if (faq !== item) faq.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
+  </body>
+</html>
