@@ -52,6 +52,21 @@
   background: #06110b;
 }
       .glass {
+        .faq-content {
+  display: none;
+}
+
+.faq-item.active .faq-content {
+  display: block;
+}
+
+.faq-icon {
+  transition: transform .25s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}
   background: rgba(6, 17, 11, 0.8);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
