@@ -1,14 +1,16 @@
 <!DOCTYPE html><html lang="pt-BR">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTM2MS1CGX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) - SUBSTITUA O G-XXXXXXXXXX PELO SEU CÓDIGO REAL -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-MTM2MS1CGX');
-</script>
+      gtag('config', 'G-MTM2MS1CGX');
+    </script>
+    <!-- Fim do código do Google Analytics -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark6 Mega Sena | Gere Dezenas Vencedoras em Segundos</title>
@@ -108,6 +110,7 @@
         </a>
         <a
           href="#planos"
+          onclick="gtag('event', 'clique_botao', {'local': 'menu_superior'});"
           class="hidden rounded-full bg-brand.lime px-5 py-3 text-sm font-extrabold uppercase tracking-wide text-brand.black shadow-glow glow-hover md:inline-flex"
         >
           Quero Gerar Minhas Dezenas Agora
@@ -135,11 +138,11 @@
             <div class="glass noise rounded-[28px] p-4 shadow-card sm:p-4 mt-6 w-full">
               <div id="video" class="relative aspect-[9/16] max-w-xs mx-auto overflow-hidden rounded-[24px] border border-white/10 bg-[#08120d]">
                 <iframe
-  src="https://www.youtube.com/embed/vJ3NKEsdefo?autoplay=1&mute=1&loop=1&playlist=vJ3NKEsdefo&controls=1&modestbranding=1&rel=0"
-  class="absolute inset-0 h-full w-full"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
-></iframe>
+                  src="https://www.youtube.com/embed/vJ3NKEsdefo?autoplay=1&mute=1&loop=1&playlist=vJ3NKEsdefo&controls=1&modestbranding=1&rel=0"
+                  class="absolute inset-0 h-full w-full"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
 
@@ -152,11 +155,17 @@
             <div class="mt-6 flex flex-col gap-4 justify-center items-center">
               <a
                 href="#planos"
+                onclick="gtag('event', 'clique_botao', {'local': 'hero_principal'});"
                 class="glow-hover inline-flex items-center justify-center rounded-2xl bg-brand.lime px-8 py-5 text-center text-base font-black uppercase tracking-wide text-brand.black shadow-glow sm:text-lg w-full sm:w-auto"
               >
                 QUERO ENTRAR AGORA E APROVEITAR A OFERTA
               </a>
-              <a href="https://mark6.com.br" target="_blank" class="text-sm font-bold text-brand.lime underline hover:text-white transition">
+              <a 
+                href="https://mark6.com.br" 
+                target="_blank" 
+                onclick="gtag('event', 'clique_botao', {'local': 'hero_link_gratis'});"
+                class="text-sm font-bold text-brand.lime underline hover:text-white transition"
+              >
                 Ou clique aqui para criar sua conta grátis de teste (3 jogos por dia)
               </a>
             </div>
@@ -175,9 +184,13 @@
               <p class="mt-1 text-base font-black sm:text-lg">Aproveite os preços promocionais antes que as vagas acabem! Termina em: <span id="countdown-top" class="text-brand.lime">23h 14min 57s</span></p>
               <p class="mt-1 text-xs sm:text-sm font-bold text-red-400">Apenas 35 vagas promocionais disponíveis hoje – o preço subirá em breve</p>
             </div>
-            <a href="#planos" class="glow-hover inline-flex justify-center rounded-2xl bg-brand.lime px-5 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow">Garantir Valor Promocional</a>
-          </div>
-            <a href="#planos" class="glow-hover inline-flex justify-center rounded-2xl bg-brand.lime px-5 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow">Garantir Meu Desconto</a>
+            <a 
+              href="#planos" 
+              onclick="gtag('event', 'clique_botao', {'local': 'hero_banner_topo'});"
+              class="glow-hover inline-flex justify-center rounded-2xl bg-brand.lime px-5 py-4 text-sm font-black uppercase tracking-wide text-brand.black shadow-glow"
+            >
+              Garantir Valor Promocional
+            </a>
           </div>
         </div>
       </section>
@@ -201,7 +214,11 @@
             <p class="text-white/80 leading-relaxed mb-4">Enquanto a maioria dos apostadores escolhe números aleatórios, o Mark6 analisa padrões reais de dezenas de 30 anos de sorteios e entrega combinações muito mais elaboradas do que qualquer escolha manual.</p>
             <div class="mt-6 text-center">
               <p class="text-white font-semibold text-lg mb-4">Não é magia. Não é achismo. <span class="text-brand.lime">É método.</span></p>
-              <a href="#planos" class="relative inline-flex items-center justify-center px-8 py-4 text-sm font-bold text-white rounded-2xl border border-green-400/40 bg-black/40 backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-green-400 hover:shadow-[0_0_25px_rgba(34,197,94,0.6)]">
+              <a 
+                href="#planos" 
+                onclick="gtag('event', 'clique_botao', {'local': 'secao_problema'});"
+                class="relative inline-flex items-center justify-center px-8 py-4 text-sm font-bold text-white rounded-2xl border border-green-400/40 bg-black/40 backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-green-400 hover:shadow-[0_0_25px_rgba(34,197,94,0.6)]"
+              >
                 Gerar minhas dezenas agora
               </a>
             </div>
@@ -271,7 +288,12 @@
                 <p class="text-xs uppercase font-bold text-white/50 tracking-wider">Acesso imediato liberado</p>
                 <p class="mt-2 text-3xl font-black text-brand.lime">3 Jogos/Dia</p>
                 <p class="text-sm font-semibold text-white/70 mt-1">Liberados no Cadastro de Teste</p>
-                <a href="https://mark6.com.br" target="_blank" class="mt-6 w-full text-center py-4 bg-brand.lime text-brand.black rounded-xl font-extrabold text-sm uppercase tracking-wider shadow-glow hover:bg-white transition duration-200">
+                <a 
+                  href="https://mark6.com.br" 
+                  target="_blank" 
+                  onclick="gtag('event', 'clique_botao', {'local': 'secao_teste_gratis'});"
+                  class="mt-6 w-full text-center py-4 bg-brand.lime text-brand.black rounded-xl font-extrabold text-sm uppercase tracking-wider shadow-glow hover:bg-white transition duration-200"
+                >
                   Criar Minha Conta Grátis
                 </a>
               </div>
@@ -387,7 +409,7 @@
         </div>
       </section>
 
-      <!-- Planos e Preços Section (Atualizada com 4 Quadros) -->
+      <!-- Planos e Preços Section -->
       <section id="planos" class="bg-[#030d08] border-y border-white/10 py-16 px-4 scroll-mt-16">
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 text-center">
           <span class="text-sm font-extrabold uppercase tracking-[0.2em] text-brand.lime">Acesso Completo</span>
@@ -411,7 +433,12 @@
                   <li><span class="text-white/40">• Não inclui bolão</span></li>
                 </ul>
               </div>
-              <a href="https://mark6.com.br" target="_blank" class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200">
+              <a 
+                href="https://mark6.com.br" 
+                target="_blank" 
+                onclick="gtag('event', 'clique_plano', {'plano': 'teste_gratis', 'valor': 0.00});"
+                class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200"
+              >
                 Ativar Teste Grátis
               </a>
             </div>
@@ -430,7 +457,12 @@
                   <li><span class="text-white/40">• Não inclui bolão</span></li>
                 </ul>
               </div>
-              <a href="https://mark6.com.br" target="_blank" class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200">
+              <a 
+                href="https://mark6.com.br" 
+                target="_blank" 
+                onclick="gtag('event', 'clique_plano', {'plano': 'basico', 'valor': 19.90});"
+                class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200"
+              >
                 Assinar Plano Básico
               </a>
             </div>
@@ -454,7 +486,12 @@
                   <li>• Até 30 jogos gerados por dia</li>
                 </ul>
               </div>
-              <a href="https://mark6.com.br" target="_blank" class="mt-8 block text-center py-4 bg-brand.lime text-brand.black rounded-xl font-black text-sm uppercase tracking-wider shadow-glow hover:bg-white transition duration-200">
+              <a 
+                href="https://mark6.com.br" 
+                target="_blank" 
+                onclick="gtag('event', 'clique_plano', {'plano': 'intermediario', 'valor': 39.90});"
+                class="mt-8 block text-center py-4 bg-brand.lime text-brand.black rounded-xl font-black text-sm uppercase tracking-wider shadow-glow hover:bg-white transition duration-200"
+              >
                 Garantir Intermediário
               </a>
             </div>
@@ -475,7 +512,12 @@
                   <li>• Prioridade nas atualizações de dados</li>
                 </ul>
               </div>
-              <a href="https://mark6.com.br" target="_blank" class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200">
+              <a 
+                href="https://mark6.com.br" 
+                target="_blank" 
+                onclick="gtag('event', 'clique_plano', {'plano': 'premium', 'valor': 79.90});"
+                class="mt-8 block text-center py-3 bg-white/10 text-white rounded-xl font-bold text-sm tracking-wide hover:bg-brand.lime hover:text-brand.black transition duration-200"
+              >
                 Garantir Plano Premium
               </a>
             </div>
@@ -558,7 +600,13 @@
           </div>
 
           <div class="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href="#planos" class="glow-hover inline-flex w-full items-center justify-center rounded-2xl bg-brand.lime px-8 py-5 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:w-auto sm:text-base">MUDAR MINHA ESTRATÉGIA AGORA</a>
+            <a 
+              href="#planos" 
+              onclick="gtag('event', 'clique_botao', {'local': 'secao_ultima_chamada'});"
+              class="glow-hover inline-flex w-full items-center justify-center rounded-2xl bg-brand.lime px-8 py-5 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow sm:w-auto sm:text-base"
+            >
+              MUDAR MINHA ESTRATÉGIA AGORA
+            </a>
           </div>
           <p class="mt-4 text-sm text-white/55">Pagamento seguro • Acesso imediato • 7 dias grátis para testar</p>
         </div>
@@ -574,7 +622,13 @@
         </div>
         <div class="flex flex-wrap gap-3">
           <a href="#top" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Topo</a>
-          <a href="#planos" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Ver Planos</a>
+          <a 
+            href="#planos" 
+            onclick="gtag('event', 'clique_botao', {'local': 'footer_planos'});"
+            class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime"
+          >
+            Ver Planos
+          </a>
           <a href="#video" class="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white/70 transition hover:border-brand.lime hover:text-brand.lime">Vídeo</a>
         </div>
       </div>
@@ -583,16 +637,16 @@
     <!-- Mobile Sticky CTA -->
     <a
       href="#planos"
+      onclick="gtag('event', 'clique_botao', {'local': 'sticky_mobile'});"
       class="glow-hover fixed inset-x-4 bottom-4 z-50 inline-flex items-center justify-center rounded-2xl bg-brand.lime px-6 py-4 text-center text-sm font-black uppercase tracking-wide text-brand.black shadow-glow md:hidden"
     >
       Ver Planos e Ativar Desconto
-    </a>
-      Garantir Oferta com Desconto
     </a>
 
     <!-- WhatsApp Button -->
     <a
       href="https://wa.me/5521998135451?text=Quero%20garantir%20minha%20vaga%20promocional%20no%20Mark6%20antes%20que%20as%20vagas%20encerrem.%20Como%20fa%C3%A7o%20para%20come%C3%A7ar?"
+      onclick="gtag('event', 'clique_whatsapp', {'local': 'icone_flutuante'});"
       aria-label="WhatsApp"
       class="glow-hover fixed bottom-24 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-card md:bottom-5"
       target="_blank"
